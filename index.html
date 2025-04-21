@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Aggregator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.jpg">
+</head>
+<body onload="fetchNews('general')">
+    <div class="container">        
+        <header>
+            <h2><span>A</span>GGREGATOR</h2>
+            <img src="icon.jpg" alt="">
+        </header>
+        <hr class="hr">
+        <nav class="category-bar">
+            <button onclick="fetchNews('general')">General</button>
+            <button onclick="fetchNews('business')">Business</button>
+            <button onclick="fetchNews('technology')">Technology</button>
+            <button onclick="fetchNews('sports')">Sports</button>
+            <button onclick="fetchNews('entertainment')">Entrtainment</button>
+        </nav>
+        <hr class="hr">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search news...">
+            <button id="clearBtn" onclick="clearSearch()">✖</button>
+            <button id="micBtn">🎤</button>
+            <button onclick="searchNews()">Search</button>
+        </div>
+        <p id="loadingMessage" style="text-align:center; display:none;">🔄 Loading news...</p>
+        <section id="news_section" class="news_section">
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
