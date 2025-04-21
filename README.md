@@ -1,5 +1,7 @@
 📰 News Aggregator
+
 ⚠️ Notice
+
 This project currently does not fetch live news data, as it's not using a commercial API key.
 
 If you want to integrate your own API key to fetch real news, you can get started here:
