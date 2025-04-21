@@ -5,10 +5,10 @@
 This project currently does not fetch live news data, as it's not using a commercial API key.
 
 If you want to integrate your own API key to fetch real news, you can get started here:
-🔗 News API - Get Started
+[🔗 News API - Get Started](https://newsapi.org/docs/get-started)
 
 To understand how APIs work, especially if you're new to them, check out this beginner-friendly guide:
-🔗 Postman – What is an API? A Beginner's Guide
+[🔗 Postman – What is an API? A Beginner's Guide](https://www.postman.com/what-is-an-api/)
 
 💡 What is an API?
 An API (Application Programming Interface) is a set of protocols that allows different software components to communicate with each other. Developers use APIs to connect small pieces of code and build powerful, secure, and efficient applications.
